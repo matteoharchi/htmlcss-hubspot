@@ -16,12 +16,49 @@
 /* BANNER FIXED */
 .banner-fixed .content{
     width: 100vw;
-    /* display: block; */
+    line-height: 70px;
+    vertical-align: middle;
+    /* position: fixed; */
+    background-color: white;
     /* DA CANCELLARE */
     border: 1px solid black;
     height: 70px;
+    padding: 0 20%;
+}
+.side {
+    display: inline-block;
 }
 
+a.menù {
+    color: black;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.english {
+    border-right: 1px solid black;
+    padding-right: 20px;
+}
+.right.side{
+    float: right;
+}
+.fa-search {
+    color: darkcyan;
+}
+.right button{
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+#login {
+    border: 1px solid #ff7a59;
+    color: #ff7a59;
+    background-color: white;
+}
+button.get{
+    background-color: #ff7a59;
+    color: white;
+    border: 1px solid #ff7a59;
+}
 /* NAV */
 nav .content {
     width: 100vw;
