@@ -8,17 +8,20 @@
     display: table;
     clear: both;
 }
+.content {
+    max-width: 1900px;
+    border: 1px solid black;
+    width: 100vw;
+}
 /* BANNER FIXED */
 .banner-fixed .content{
     width: 100vw;
+    /* display: block; */
     /* DA CANCELLARE */
     border: 1px solid black;
     height: 70px;
-    /* display: block; */
 }
-.content {
-    max-width: 1900px;
-}
+
 /* NAV */
 nav .content {
     width: 100vw;
@@ -28,12 +31,10 @@ nav .content {
 }
 /* BANNER PRINCIPALE */
 .banner .content {
-
     width: 100vw;
     background-color: pink;
     /* DA CANCELLARE */
     height: 500px;
-    border: 1px solid black;
 }
 .jumbotron {
     width: 50%;
@@ -44,3 +45,30 @@ nav .content {
     width: 50%;
     height: 100%;
 }
+/* CUBO & CO. */
+.powerful .content {
+    height: 800px;
+    text-align: center;
+}
+.cube {
+    width: 50%;
+    border: 1px solid black;
+    margin: 0 25%;
+    /* DA CANCELLARE */
+    height: 200px;
+}
+.part1 {
+    width: 50%;
+    border: 1px solid black;
+    margin: 0 25%;
+    /* DA CANCELLARE */
+    height: 200px;
+}
+.part2 {
+    width: 33.3333%;
+    float: left;
+    /* DA CANCELLARE */
+    height: 300px;
+    border: 1px solid black;
+}
+/* PARTE VERDE */
