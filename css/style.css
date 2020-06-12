@@ -126,10 +126,6 @@ li.menù {
 }
 
 /* CUBO & CO. */
-.powerful .content {
-    height: 800px;
-    text-align: center;
-}
 /* generale sezione */
 .description .title {
     margin-bottom: 20px;
@@ -157,9 +153,9 @@ li.menù {
     height: 200px;
 }
 /* crm */
-.crm {
+.service {
     width: 60%;
-    border: 1px ridge black;
+    border: 1px ridge;
     margin: 0 20%;
     padding: 40px 60px;
     position:relative;
@@ -199,12 +195,34 @@ hr.second-part {
 
 
 
-
-.part2 {
+.group {
+    padding:0;
+}
+.single {
     width: 33.3333%;
     float: left;
-    /* DA CANCELLARE */
-    height: 300px;
-    border: 1px solid black;
+    margin-top: 30px;
 }
+.single.marketing {
+    padding-right: 10px;
+}
+.single.sales{
+    padding: 0 5px;
+}
+.single.servicehub {
+    padding-left: 10px;
+}
+.box {
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+}
+/* .box img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+} */
 /* PARTE VERDE */
