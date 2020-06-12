@@ -24,7 +24,6 @@
     padding: 0 20%;
     /* DA CANCELLARE */
     height: 70px;
-
 }
 .side {
     display: inline-block;
@@ -55,7 +54,7 @@ a.menù {
     color: #ff7a59;
     background-color: white;
 }
-button.get{
+.orange-button button{
     background-color: #ff7a59;
     color: white;
     border: 1px solid #ff7a59;
@@ -87,7 +86,6 @@ li.menù {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
-    /* DA CANCELLARE */
     height: 600px;
 }
 .jumbotron {
@@ -101,10 +99,13 @@ li.menù {
     font-size: 20px;
     margin-top: 20px;
 }
-.jumbotron button {
+.orange-button.big button {
     margin: 20px 0;
-    padding: 20px 30px;
+    padding: 15px 30px;
     border-radius: 5px;
+}
+.orange-button.big{
+    width: 160px;
 }
 .jumbotron .mini-text {
     font-size: 10px;
@@ -129,20 +130,76 @@ li.menù {
     height: 800px;
     text-align: center;
 }
+/* generale sezione */
+.description .title {
+    margin-bottom: 20px;
+}
+.description .text {
+    font-size: 15px;
+}
+.service-image img{
+    height: 100px;
+}
+.service-image {
+    width: 150px;
+}
+/* cube */
 .cube {
     width: 50%;
-    border: 1px solid black;
-    margin: 0 25%;
-    /* DA CANCELLARE */
+    margin: 20px 25%;
+    text-align: center;
+    padding: 0px 10px 20px 10px;
+}
+.cube h2 {
+    text-transform: capitalize;
+}
+.cube img{
     height: 200px;
 }
-.part1 {
-    width: 50%;
-    border: 1px solid black;
-    margin: 0 25%;
-    /* DA CANCELLARE */
-    height: 200px;
+/* crm */
+.crm {
+    width: 60%;
+    border: 1px ridge black;
+    margin: 0 20%;
+    padding: 40px 60px;
+    position:relative;
 }
+.crm .service-image{
+    float: left;
+}
+.crm .description {
+    width: 70%;
+    float: left;
+    margin-left: 30px;
+}
+.description h4 {
+    margin: 20px 20px 20px 0;
+}
+hr.second-part {
+    width: 500px;
+    vertical-align: middle;
+}
+.second-part {
+    display: inline-block;
+}
+.item i {
+    color: #ff7a59;
+}
+.item span {
+    margin-right: 20px;
+}
+.crm .orange-button {
+    height: 50px;
+    position: absolute;
+    top: 130px;
+}
+
+
+
+
+
+
+
 .part2 {
     width: 33.3333%;
     float: left;
