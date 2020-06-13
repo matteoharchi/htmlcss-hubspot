@@ -124,7 +124,6 @@ li.menù {
     float: left;
     background-color: #a4e8e0;
 }
-
 /* CUBO & CO. */
 /* generale sezione */
 .description .title {
@@ -138,6 +137,12 @@ li.menù {
 }
 .service-image {
     width: 150px;
+}
+.item i {
+    color: #ff7a59;
+}
+.item span {
+    margin-right: 20px;
 }
 /* cube */
 .cube {
@@ -178,23 +183,12 @@ hr.second-part {
 .second-part {
     display: inline-block;
 }
-.item i {
-    color: #ff7a59;
-}
-.item span {
-    margin-right: 20px;
-}
 .crm .orange-button {
     height: 50px;
     position: absolute;
     top: 130px;
 }
-
-
-
-
-
-
+/* three boxes generale */
 .group {
     padding:0;
 }
@@ -203,6 +197,22 @@ hr.second-part {
     float: left;
     margin-top: 30px;
 }
+.box {
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+}
+.center{
+    width: 100%;
+    text-align: center;
+}
+.text hr{
+    margin: 20px 0;
+}
+/* singoli box */
 .single.marketing {
     padding-right: 10px;
 }
@@ -212,17 +222,7 @@ hr.second-part {
 .single.servicehub {
     padding-left: 10px;
 }
-.box {
-    width: 100%;
-    height: 100%;
-    border: 2px solid red;
-    text-align: center;
-    position: relative;
-    padding: 10px;
-}
-/* .box img {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-} */
+
+
+
 /* PARTE VERDE */
