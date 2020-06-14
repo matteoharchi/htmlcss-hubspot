@@ -106,7 +106,7 @@ li.menù {
 .orange-button.big{
     width: 160px;
 }
-.jumbotron .mini-text {
+.mini-text {
     font-size: 10px;
 }
 .image {
@@ -284,7 +284,7 @@ ul.item{
     margin-top: 10px;
 }
 /* CLIENTS */
-.customers .content {
+.top-container {
     padding: 50px 25%;
 }
 
@@ -305,4 +305,27 @@ th, td {
 }
 .logo-table, .clients{
     display: inline-block;
+}
+
+.bottom-container {
+    padding: 0 20%;
+    height: 600px;
+    margin-top: 50px;
+}
+.left-part {
+    width: 500px;
+}
+.left-part .title{
+    margin-top: 50px;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.right-part, .left-part {
+    display: inline-block;
+}
+.right-part {
+    float: right;
+}
+.right-part img {
+    height: 400px;
 }
