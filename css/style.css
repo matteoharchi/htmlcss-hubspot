@@ -10,7 +10,6 @@
 }
 .content {
     max-width: 1900px;
-    border: 1px solid black;
     width: 100vw;
     font-family: 'Montserrat', sans-serif;
 }
@@ -212,6 +211,18 @@ hr.second-part {
 .text hr{
     margin: 20px 0;
 }
+i li{
+    margin-right: 20px;
+}
+ul.item{
+    list-style-type: none;
+    text-align: justify;
+}
+.orange-button .second-part{
+    width: 50%;
+    margin: 25% 0;
+
+}
 /* singoli box */
 .single.marketing {
     padding-right: 10px;
@@ -223,6 +234,75 @@ hr.second-part {
     padding-left: 10px;
 }
 
-
-
 /* PARTE VERDE */
+.green .content {
+    background-color: #00abb7;
+    color: white;
+    padding: 50px 20%;
+    text-align: center;
+}
+.white {
+    margin-bottom: 40px;
+}
+.title.white {
+    font-size: 18px;
+}
+.text.white{
+    font-size: 15px;
+}
+.line{
+    width: 100%;
+    height: 200px;
+}
+.first.line{
+    border-bottom: 1px solid white;
+}
+.square {
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+.other{
+    border-left: 1px solid white;
+}
+.square-content {
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px;
+    text-align: center;
+}
+.amount {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.plus {
+    font-size: 35px;
+    vertical-align: middle;
+    margin: 0;
+}
+.growth .amount {
+    margin-top: 10px;
+}
+/* CLIENTS */
+.customers .content {
+    padding: 50px 25%;
+}
+
+.clients {
+    width: 250px;
+    margin-right: 100px;
+}
+.logo-table {
+    width: 200px;
+    height: 120px;
+    display: inline-block;
+}
+.logo-table img {
+    width: 130px;
+}
+th, td {
+    padding: 0 10px;
+}
+.logo-table, .clients{
+    display: inline-block;
+}
