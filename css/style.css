@@ -13,6 +13,33 @@
     width: 100vw;
     font-family: 'Montserrat', sans-serif;
 }
+/* PROVA DROPDOWN */
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    z-index: 1;
+}
+.dropdown li:hover{
+    background-color: #e5f5f8;
+}
+.dropdown.language {
+  width: 120px;
+}
+.dropdown li{
+    list-style-type: none;
+    height: 50px;
+    padding: 0 20px;
+}
+.dropdown a {
+    color: black;
+    text-decoration: none;
+}
+.dropdown-content p {
+    line-height: 15px;
+    padding: 20px 20px 0 0;
+    margin-top: 10px;
+}
 /* BANNER FIXED */
 .banner-fixed .content{
     width: 100vw;
@@ -22,11 +49,16 @@
     background-color: white;
     padding: 0 20%;
     margin-bottom: 2px solid black;
+    z-index: 1;
+    background-color: #f5f8fa;
+    border-bottom: 1px solid lightgrey;
 }
 .side {
     display: inline-block;
 }
-
+.menù {
+    display: inline-block;
+}
 a.menù {
     color: black;
     text-decoration: none;
@@ -35,6 +67,9 @@ a.menù {
 .english {
     border-right: 1px solid black;
     padding-right: 20px;
+}
+.language:hover .dropdown{
+    display: block;
 }
 .right.side{
     float: right;
@@ -73,6 +108,69 @@ nav .content {
 li.menù {
     display: inline-block;
 }
+/* software */
+.software:hover .dropdown{
+    display: block;
+}
+.dropdown-content {
+    display: inline-block;
+    width: 250px;
+    font-size: 15px;
+    margin-left: 50px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+}
+.dropdown-title  {
+    height: 20px;
+}
+.software.dropdown-content {
+    width: 350px;
+    margin-left: 20px;
+}
+ .new {
+     background-color: #00bda5;
+     color: white;
+     height: 18px;
+     width: 33px;
+     font-size: 8px;
+     line-height: 15px;
+     padding: 2px 5px;
+     margin-left: 3px;
+     vertical-align: super;
+     border-radius: 5px;
+ }
+ /* resources */
+ .resources .dropdown {
+     width: 1000px;
+     right: 400px;
+ }
+ .resources .part{
+     width: 200px;
+ }
+ .part p{
+     line-height: 20px;
+ }
+ .resources .part {
+     padding-right: 30px;
+     width: 20%%;
+ }
+ .resources:hover .dropdown{
+     display: block;
+ }
+ .top-line .resources{
+     display: inline-block;
+ }
+ .second-line .resources {
+     display: inline-block;
+ }
+.third-line .resources {
+    display: inline-block;
+
+}
+
 /* BANNER PRINCIPALE */
 .banner .content {
     width: 100vw;
@@ -111,7 +209,6 @@ li.menù {
 .image {
     border-bottom: 2px solid #33475c;
 }
-
 .image-continue.left {
     border-top: 3px solid #33475c;
     border-bottom: 3px solid #33475c;
